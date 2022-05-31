@@ -27,7 +27,7 @@ If you are working with a fakeship, this is one way to set things up for rapid d
     (This will probably be you, but may instead be an organization you belong to.)
 
 4.  Choose a name for your copy of the archetype repository.
-    This name should have the form of the template repo without `archetype`, e.g. `roman` or `hsl-roman`.
+    This name should have the form of the template repo without `archetype`, e.g. `align` or `hsl-align`.
 
 5.  Make sure the repository is **private**, leave "Include all branches" unchecked, and click
 on "Create repository from template".
