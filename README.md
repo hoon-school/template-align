@@ -14,6 +14,8 @@ If you are working with a fakeship, this is one way to set things up for rapid d
 2. Clone this repo into the same directory as the fakeship, then copy the contents of `src/` into `zod/base/`.
 3. Develop either in `zod/base/` or in this repo folder directly.  It's probably a bit easier to develop in the fakeship and copy back here frequently.
 
+Caveat:  The `.gitkeep` files should be removed once you have something in that directory, as Clay won't have a mark for them.
+
 ## Creating a Repository
 
 1.  Log in to GitHub.
@@ -27,7 +29,7 @@ If you are working with a fakeship, this is one way to set things up for rapid d
     (This will probably be you, but may instead be an organization you belong to.)
 
 4.  Choose a name for your copy of the archetype repository.
-    This name should have the form of the template repo without `archetype`, e.g. `align` or `hsl-align`.
+    This name should have the form of the template repo without `archetype`, e.g. `rhonda` or `hsl-align`.
 
 5.  Make sure the repository is **private**, leave "Include all branches" unchecked, and click
 on "Create repository from template".
