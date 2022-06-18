@@ -16,7 +16,7 @@
     !>  ~["'Twas brillig and  the    slithy     toves" "Did   gyre    and  gimble in         the   wabe;" "All   mimsy   were the    borogoves," "And   the     mome raths  outgrabe."]
     !>  (columnify %left sample-3)
   %+  expect-eq
-    !>  ~["Given      a          text       file   of     many      lines,     where    fields  within  a      line" "are        delineated by         a      single 'dollar'  character, write    a       program" "that       aligns     each       column of     fields    by         ensuring that    words   in     each" "column     are        separated  by     at     least     one        space.  " "Further,   allow      for        each   word   in        a          column   to      be      either left" "justified, right      justified, or     center justified within     its      column."]
+    !>  ~["Given      a          text       file   of     many      lines,     where    fields  within  a      line" "are        delineated by         a      single 'dollar'  character, write    a       program" "that       aligns     each       column of     fields    by         ensuring that    words   in     each" "column     are        separated  by     at     least     one        space." "Further,   allow      for        each   word   in        a          column   to      be      either left" "justified, right      justified, or     center justified within     its      column."]
     !>  (columnify %left sample-4)
   ==
 ++  test-align-center
@@ -31,7 +31,7 @@
     !>  ~["'Twas brillig and   the     slithy   toves" " Did   gyre   and  gimble     in      the  wabe;" " All   mimsy  were  the   borogoves," " And    the   mome raths  outgrabe."]
     !>  (columnify %center sample-3)
   %+  expect-eq
-    !>  ~["  Given        a         text     file    of     many      lines,    where   fields  within    a    line" "   are     delineated     by       a    single 'dollar'  character,  write      a    program" "   that      aligns      each    column   of    fields       by     ensuring  that    words    in   each" "  column      are     separated    by     at     least      one      space. " " Further,    allow       for      each   word     in         a       column    to      be    either left" "justified,   right    justified,   or   center justified   within     its    column."]
+    !>  ~["  Given        a         text     file    of     many      lines,    where   fields  within    a    line" "   are     delineated     by       a    single 'dollar'  character,  write      a    program" "   that      aligns      each    column   of    fields       by     ensuring  that    words    in   each" "  column      are     separated    by     at     least      one      space." " Further,    allow       for      each   word     in         a       column    to      be    either left" "justified,   right    justified,   or   center justified   within     its    column."]
     !>  (columnify %center sample-4)
   ==
 ++  test-align-right
