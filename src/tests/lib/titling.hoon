@@ -41,21 +41,21 @@
   ;:  weld
   %+  expect-eq
     !>  "   h"
-    !>  (align %center 4 "h")
+    !>  (align %right 4 "h")
   %+  expect-eq
     !>  "     hello"
-    !>  (align %center 10 "hello")
+    !>  (align %right 10 "hello")
   %+  expect-eq
     !>  " Hello Mars!"
-    !>  (align %center 12 "Hello Mars!")
+    !>  (align %right 12 "Hello Mars!")
   %+  expect-eq
     !>  "  Hello Mars!"
-    !>  (align %center 13 "Hello Mars!")
+    !>  (align %right 13 "Hello Mars!")
   %+  expect-eq
     !>  "                                                                     Hello Mars!"
-    !>  (align %center 80 "Hello Mars!")
+    !>  (align %right 80 "Hello Mars!")
   %-  expect-fail
-    |.  (align %center 3 "hello")
+    |.  (align %right 3 "hello")
   ==
 ++  test-box-single
   ;:  weld
